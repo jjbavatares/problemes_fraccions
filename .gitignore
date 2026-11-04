@@ -1,0 +1,6 @@
+.private/
+node_modules/
+*private*.json
+*claus*.txt
+*.log
+.DS_Store
