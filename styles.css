@@ -4,3 +4,15 @@
 @media(max-width:1040px) and (min-width:721px){.topbar{height:auto;flex-wrap:wrap;padding-top:16px;padding-bottom:13px;gap:15px}.tabs{order:3;width:100%}.tab{flex:1}.jjb-logo{margin-left:auto}}
 @media(max-width:720px){.tab{padding:9px 8px;font-size:13px}.tab span{padding-left:8px;font-size:9px}.block-nav{grid-template-columns:repeat(3,1fr);gap:6px}.block-nav a{font-size:10px;padding:9px}.collection-layout .practice-sidebar{padding:15px}.collection-layout .side-label{font-size:9px}.block-heading h2{font-size:22px}.block-heading .eyebrow{font-size:9px;letter-spacing:1.5px}.block-state{max-width:90px;line-height:1.5}dialog .save-note{display:block;margin-left:0}.collection-block{margin-bottom:35px}}
 @media print{.collection-layout .practice-sidebar,.access-button,dialog{display:none!important}.block-heading h2{color:#10213b}.collection-card .card-kicker{color:#235c99}}
+
+/* Llegibilitat dels exemples i de totes les resolucions. */
+.solution-column p{font-size:18px;line-height:1.85}
+.solution-column h4{font-size:13px;letter-spacing:1.3px}
+.solution-column .calc{font-size:20px!important;line-height:1.85}
+.solution-column math{font-size:1.3em}
+.type-button{font-size:17px;line-height:1.5}
+.type-button .type-number{font-size:14px}
+.problem-card summary{font-size:16px}
+.type-reveal{font-size:14px}
+@media(min-width:1001px){.learn-layout{grid-template-columns:290px minmax(0,1fr)}}
+@media(max-width:720px){.type-button{flex-basis:225px}}
